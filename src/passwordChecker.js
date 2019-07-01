@@ -1,15 +1,6 @@
-/* password_is_valid will check a a few different conditions. If a condition is fails then an error/exception
- should be raised/thrown. That error/exception can have a message of your choosing.
-
-  - password should be larger than 8 chars
-  - password should not be null
-  - password should have at least one uppercase letter
-  - password should have at least one lowercase letter
-  - password should have at least one number */
-
   /*  CODE EXPLANATION
   
-  1. ^ - Start of the password
+  1. ^ - matches any string containing certain characters
   2. (?=.*[a-z]) - must have lowercase
   3. (?=.*[A-Z]) - must have UPPERcase
   4. (?=.*[0-9]) - must have numbers
