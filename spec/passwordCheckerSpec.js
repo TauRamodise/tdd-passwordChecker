@@ -24,11 +24,11 @@ describe('password_is_valid()', function(){
 
 describe('password_is_ok()', function(){
     it('should check if password is greater than eight characters, password entered has at least one lowercase ', function(){
-        let check = password_is_ok('HELLOOOOO');
+        let check = password_is_ok('Helloooooo');
         expect(check).toBe('password is valid');
     })
     it('should check if password is greater than eight characters, password entered has at least one uppercase', function(){
-        let check = password_is_ok('helloooooo');
+        let check = password_is_ok('Helloooooo');
         expect(check).toBe('password is valid');
     })
     it('should check if password is greater than eight characters, password entered has one number', function(){
