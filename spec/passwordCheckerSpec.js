@@ -12,6 +12,7 @@ describe('password_is_valid()', function(){
     })
 })
 
+
 describe('password_is_ok()', function(){
     it('should check if password is greater than eight characters, password entered has at least one lowercase ', function(){
         let check = password_is_ok('Helloooooo');
